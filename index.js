@@ -2,7 +2,7 @@ let nombre = "Jung Hoseok";
 let edad = calcularEdad(1994);
 console.log("hola " + nombre);
 console.log(nombre + "tiene "+ edad + "años");
-console.log("Se le pagara: "+calcularSalario(horasTrabajadas, 30000));
+console.log("Se le pagara: "+calcularSalario(8, 30000));
 
 function calcularEdad(AnioNacimiento){
     return new Date().getFullYear() - AnioNacimiento;
